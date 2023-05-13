@@ -81,7 +81,7 @@ function Showtotal() {
                     
                 /> */}
                 <div>
-                    <h1>totalprice</h1>
+                    <h1>totalpricert fdgdfg</h1>
                     {
                         datas.map((post,index)=>{
                             return <h1 key={index} >{post.total}</h1>
