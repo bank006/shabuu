@@ -5,6 +5,18 @@
 
 }
 
+.content{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.main {
+  border: 1px solid black;
+  position: fixed;
+  top: 75px;
+}
+
 /*.logo {
   height: 6em;
   padding: 1.5em;

@@ -11,17 +11,20 @@ import Testquery from './pages/Testquery'
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-      <Navbar/>
-        <Routes>
-          {/* <Route path='/Testquery' element={<Testquery/>}/> */}
-          <Route path='/Home' element={<Home/>}/>
-          {/* <Route path='/Showpage' element={<Showpage/>}/> */}
-          <Route path='/' element={<About/>}/>
-          <Route path='/Showtotal' element={<Showtotal/>}/>
-        </Routes>
-      </BrowserRouter>
+    <div className='content'>
+      <div className='main'>
+        <BrowserRouter>
+        <Navbar/>
+          <Routes>
+            {/* <Route path='/Testquery' element={<Testquery/>}/> */}
+            <Route path='/Home' element={<Home/>}/>
+            {/* <Route path='/Showpage' element={<Showpage/>}/> */}
+            <Route path='/' element={<About/>}/>
+            <Route path='/Showtotal' element={<Showtotal/>}/>
+          </Routes>
+        </BrowserRouter>
+        {/* <Showtotal/> */}
+      </div>
 
     </div>
   )

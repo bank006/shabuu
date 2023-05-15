@@ -11,13 +11,13 @@ function Navbar() {
         </div>
         <div className='menu'>
           <div className='content'>
-            <Link to='/Home'>Home</Link>
+            <Link className='onclick' to='/Home'>Home</Link>
           </div>
           <div className='content'>
-            <Link to='/'>About</Link>
+            <Link className='onclick' to='/'>About</Link>
           </div>
           <div className='content'>
-            <Link to='/Showtotal' >Showtotal</Link>
+            <Link className='onclick' to='/Showtotal' >Showtotal</Link>
           </div>
         </div>
       </div>
