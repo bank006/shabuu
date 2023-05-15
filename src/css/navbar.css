@@ -1,0 +1,17 @@
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav-bar{
+    border: 1px solid black;
+    
+    top: 0px;
+    width: 100%; 
+}
+
+.nav-bar ,.title{
+    display: flex;
+    justify-content: space-between;
+}
