@@ -8,7 +8,7 @@ function Navbar() {
       <div className='nav-bar'>
         
         <div className='title' >
-          <h1>menu</h1>
+          <a href='/'>menu</a>
         </div>
         
         <div className='menu'>
@@ -22,9 +22,9 @@ function Navbar() {
           <div for="showtotal" className='content'>
             <Link className='onclick' to='/Showtotal' >Showtotal</Link>
           </div>
-          <div for="allmodel" className='content'>
-            <Link className='onclick' to='/Allmodel' >Allmodel</Link>
-          </div>
+          
+          <Link to='/Allmodel' ></Link>
+          
           <div className='slider start-home'></div>
           
         </div>

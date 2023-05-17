@@ -24,7 +24,7 @@ function App() {
             <Route  path='/Home' element={<Home/>}/>
             <Route path='/About' element={<About/>}/>
             <Route path='/Showtotal' element={<Showtotal/>}/>
-            <Route path='/Allmodel' element={<Allmodel/>}/>
+            <Route path='/' element={<Allmodel/>}/>
           </Routes>
         </div>
         </BrowserRouter>

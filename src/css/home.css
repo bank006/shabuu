@@ -1,14 +1,20 @@
-.Submit-Lprice{
-    overflow-y: scroll;
-    width:100%;
-   
-}
 
-.maincontent{
-    width: 500px;
+
+.container{
+    margin: 0;
+    padding: 0;
+    
+    > .maincontent{
+        width: 500px;
+    }
 }
 
 .contentshow{
     width: 500px;
+    > .Submit-Lprice{
+        overflow-y: scroll;
+        width:100%;
+       
+    }
 }
 
