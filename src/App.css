@@ -5,17 +5,14 @@
 
 }
 
-.content{
+.main{
   margin: 0px;
   padding: 0px;
-  
+  margin-top: 90px;  
+  margin-left: 60px;
 }
 
-.main {
-  border: 1px solid black;
-  position: fixed;
-  top: 75px;
-}
+
 
 /*.logo {
   height: 6em;

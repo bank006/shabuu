@@ -23,7 +23,7 @@
 
 .menu, .content {
    
-    text-decoration: none;
+    
     z-index: 1;
 }
 
@@ -34,7 +34,7 @@
     text-align: center;
     height: 100%;
     border-radius: 8px;
-   
+    text-decoration: none;
 }
 
 .onclick:hover{

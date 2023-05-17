@@ -11,10 +11,13 @@ import Testquery from './pages/Testquery'
 
 function App() {
   return (
-    <div className='content'>
-      <div className='main'>
+    <div className='contents'>
+     
+      <div className='main1'>
+      
         <BrowserRouter>
         <Navbar/>
+        <div className="main">
           <Routes>
             {/* <Route path='/Testquery' element={<Testquery/>}/> */}
             <Route path='/Home' element={<Home/>}/>
@@ -22,6 +25,7 @@ function App() {
             <Route path='/' element={<About/>}/>
             <Route path='/Showtotal' element={<Showtotal/>}/>
           </Routes>
+        </div>
         </BrowserRouter>
         {/* <Showtotal/> */}
       </div>

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import  {BrowserRouter, NavLink ,Route , Routes, Link, useNavigate}  from 'react-router-dom'
 import DataTable from 'react-data-table-component';
 import Axios from 'axios'
+import '../css/home.css'
 
 
 function Home() {
@@ -43,13 +44,6 @@ function Home() {
   return (
    
    <div className="container">
-
-     
-    
-    
-   
-    
-    
     <form action="" >
       <div className="mb-1">
         <label htmlFor="price" className="formlabel">
@@ -72,7 +66,7 @@ function Home() {
       <button type="submit" onClick={addprice} >submit</button>
     </form>
     <hr />
-    <div className='Submit_Lprice'>
+    <div className='Submit-Lprice'>
       <button type="submit" onClick={getprice}>show price</button>
       {pricelist.map((val, key)=>{
         return (
