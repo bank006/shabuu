@@ -44,44 +44,48 @@ function Home() {
   return (
    
    <div className="container">
-    <form action="" >
-      <div className="mb-1">
-        <label htmlFor="price" className="formlabel">
-          price:
-        </label>
-        <input type="number"  className="form-control"
-        onChange={(event)=>{
-          setprice(event.target.value)
-        }}  />
-      </div>
-      <div className="mb-1">
-        <label htmlFor="price" className="formlabel">
-          date:
-        </label>
-        <input type="date"  className="form-control" 
-        onChange={(event)=>{
-          settime_start(event.target.value)
-        }}  />
-      </div>
-      <button type="submit" onClick={addprice} >submit</button>
-    </form>
-    <hr />
-    <div className='Submit-Lprice'>
-      <button type="submit" onClick={getprice}>show price</button>
-      {pricelist.map((val, key)=>{
-        return (
-          <div className="price card">
-            <div className="card-body text-left">
-              <p className='card-text'>price:{val.id}</p>
-              <p className='card-text'>price:{val.pricet}</p>
-              <p className='card-text'>price:{val.time_start}</p>
-              
-            </div>
-
+      <div className="maincontent">
+          <form action="" >
+          <div className="mb-1">
+            <label htmlFor="price" className="formlabel">
+              price:
+            </label>
+            <input type="number"  className="form-control"
+            onChange={(event)=>{
+              setprice(event.target.value)
+            }}  />
           </div>
-        )
-      })}
+          <div className="mb-1">
+            <label htmlFor="price" className="formlabel">
+              date:
+            </label>
+            <input type="date"  className="form-control" 
+            onChange={(event)=>{
+              settime_start(event.target.value)
+            }}  />
+          </div>
+          <button type="submit" onClick={addprice} >submit</button>
+        </form>
+      </div>
+    
+    <div className='contentshow'>
+      <div className='Submit-Lprice'>
+        <button type="submit" onClick={getprice}>show price</button>
+        {pricelist.map((val, key)=>{
+          return (
+            <div className="price card">
+              <div className="card-body text-left">
+                <p className='card-text'>price:{val.id}</p>
+                <p className='card-text'>price:{val.pricet}</p>
+                <p className='card-text'>price:{val.time_start}</p>
+                
+              </div>
 
+            </div>
+          )
+        })}
+
+      </div>
     </div>
    </div>
  

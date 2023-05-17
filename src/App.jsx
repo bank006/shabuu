@@ -8,6 +8,7 @@ import About from './pages/About'
 import './App.css'
 import Showtotal from './pages/Showtotal'
 import Testquery from './pages/Testquery'
+import Allmodel from './pages/Allmodel'
 
 function App() {
   return (
@@ -17,17 +18,16 @@ function App() {
       
         <BrowserRouter>
         <Navbar/>
+        
         <div className="main">
           <Routes>
-            {/* <Route path='/Testquery' element={<Testquery/>}/> */}
-            <Route path='/Home' element={<Home/>}/>
-            {/* <Route path='/Showpage' element={<Showpage/>}/> */}
-            <Route path='/' element={<About/>}/>
+            <Route  path='/Home' element={<Home/>}/>
+            <Route path='/About' element={<About/>}/>
             <Route path='/Showtotal' element={<Showtotal/>}/>
+            <Route path='/Allmodel' element={<Allmodel/>}/>
           </Routes>
         </div>
         </BrowserRouter>
-        {/* <Showtotal/> */}
       </div>
 
     </div>

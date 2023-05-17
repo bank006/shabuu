@@ -5,11 +5,16 @@
 
 }
 
-.main{
+.main1{
   margin: 0px;
   padding: 0px;
-  margin-top: 90px;  
-  margin-left: 60px;
+  margin-top: 90px; 
+  
+  
+}
+
+.home{
+  border: 1px solid black;
 }
 
 

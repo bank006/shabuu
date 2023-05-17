@@ -4,7 +4,7 @@ import '../css/navbar.css'
 
 function Navbar() {
   return (
-    <div className='container'>
+    <div className='container1'>
       <div className='nav-bar'>
         
         <div className='title' >
@@ -17,10 +17,13 @@ function Navbar() {
             <Link className='onclick' to='/Home'>Home</Link>
           </div>
           <div for="about" className='content'>
-            <Link className='onclick' to='/'>About</Link>
+            <Link className='onclick' to='/About'>About</Link>
           </div>
           <div for="showtotal" className='content'>
             <Link className='onclick' to='/Showtotal' >Showtotal</Link>
+          </div>
+          <div for="allmodel" className='content'>
+            <Link className='onclick' to='/Allmodel' >Allmodel</Link>
           </div>
           <div className='slider start-home'></div>
           

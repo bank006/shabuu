@@ -72,14 +72,6 @@ function Showtotal() {
                 <input type="date"   onChange={handleSearchChang} />
                 <button type="submit" >show price</button>
             </form>
-
-                {/* <DataTable 
-                    title="Users"
-                    columns={columns}
-                    data={datas}
-                    progressPending={loading}
-                    
-                /> */}
                 <div>
                     <h1>totalpricert </h1>
                     {

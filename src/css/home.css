@@ -1,4 +1,14 @@
 .Submit-Lprice{
-    border: 1px solid black;
+    overflow-y: scroll;
     width:100%;
+   
 }
+
+.maincontent{
+    width: 500px;
+}
+
+.contentshow{
+    width: 500px;
+}
+
