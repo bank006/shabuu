@@ -9,10 +9,6 @@ function Home() {
 
   const [pricet , setprice]=useState("");
   const[time_start,settime_start]=useState("");
-
-  
-
-
   const[pricelist,setpricelist] = useState([]);
 
   const getprice = () => {
